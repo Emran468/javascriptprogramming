@@ -62,9 +62,29 @@
 //  console.log(`count is start ${i}`);
 //  i++;
 // } while(i<=7);
-let num=29;
-let i=1;
-do{
-console.log(`${num} * ${i} = ${num * i}`);
-i++;
-}while(i<=10);
+// let num=29;
+// let i=1;
+// do{
+// console.log(`${num} * ${i} = ${num * i}`);
+// i++;
+// }while(i<=10);
+
+
+// array syntax
+
+//    Array.map(callback(Element,index, array), thisArgs)
+
+// const fruits=["mango","bannana","cherry"];
+
+// const upperCasetoFruits=fruits.map(fruit=> fruit.toUpperCase());
+// console.log("upper case",upperCasetoFruits);
+// console.log("original", fruits)
+
+// const users=[
+//     {name:"alice",age:22},
+//     {name:"bob",age:20},
+//     {name:"john",age:21}
+// ]
+
+// const names=users.map(user=>user.age);
+// console.log(names);
