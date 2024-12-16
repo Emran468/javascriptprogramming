@@ -93,8 +93,56 @@
 
 // Array.filter(callback(element,index, array),thisArgs)
 
-const numbers=[1,2,3,4,5,6,7,8,9];
+// const numbers=[1,2,3,4,5,6,7,8,9];
 
-const evenNumber=numbers.filter(num=>num%2===0);
-console.log("new number",evenNumber);
-console.log("original number",numbers);
+// const evenNumber=numbers.filter(num=>num%2===0);
+// console.log("new number",evenNumber);
+// console.log("original number",numbers);
+
+
+// // reduce method syntax
+
+// Array.reduce(callback(accumullator,currentValue, index ,array),initialValue);
+
+// const profits=[100,200,300,400,500];
+// const totalProfit=profits.reduce((a,b)=>a+b);
+// console.log(totalProfit);
+
+
+// destruction method
+// const myArray = ["emran", 32, "webdevloper", "dhamaura"];
+
+// const [name, age, job, address] = myArray;
+// console.log(name);
+// console.log(age);
+// console.log(job);
+// console.log(address);
+
+
+// const newArray = [...myArray, "bangladesh", "dhaka"];
+// console.log(newArray);
+
+// arraymethod
+// let list = [1, 2, 3, 4, 5]
+
+// // list.map(function(jkono) {
+
+// //     console.log(jkono);
+// // });
+
+// list.map((jkono) => {
+
+//     console.log(jkono);
+// });
+
+// class persion {
+//     constructor(name, age) {
+
+//         this.name = name;
+//         this.age = age;
+//     }
+// }
+
+// const persion1 = new persion("naahian", 30);
+// persion1.name = "jamal";
+// console.log(persion1);
