@@ -88,3 +88,13 @@
 
 // const names=users.map(user=>user.age);
 // console.log(names);
+
+// filter syntax
+
+// Array.filter(callback(element,index, array),thisArgs)
+
+const numbers=[1,2,3,4,5,6,7,8,9];
+
+const evenNumber=numbers.filter(num=>num%2===0);
+console.log("new number",evenNumber);
+console.log("original number",numbers);
