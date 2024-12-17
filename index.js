@@ -109,7 +109,7 @@
 // console.log(totalProfit);
 
 
-// destruction method
+// destucture method
 // const myArray = ["emran", 32, "webdevloper", "dhamaura"];
 
 // const [name, age, job, address] = myArray;
@@ -117,8 +117,7 @@
 // console.log(age);
 // console.log(job);
 // console.log(address);
-
-
+// spread operator
 // const newArray = [...myArray, "bangladesh", "dhaka"];
 // console.log(newArray);
 
@@ -146,3 +145,46 @@
 // const persion1 = new persion("naahian", 30);
 // persion1.name = "jamal";
 // console.log(persion1);
+
+// "slice method"
+
+// const fruits=["Apple","banana","cherry","mango","grape","pineapple"];
+// // const fruit=fruits.slice(2,4);
+// const fruit=fruits.slice(2);
+// console.log(fruit);
+// console.log("original" ,fruits);
+
+// splice method
+// syntax splice
+// Array.splice(Start, deleteCount, item1,item2 ...);
+
+// const fruits=["Apple","banana","cherry","mango","grape","pineapple"];
+
+// const fruit= fruits.splice(1,3);
+// console.log(fruit);
+// console.log(fruits);
+
+// push method syntax
+
+// Array.push(element1,element2,elememt3 ....);
+
+// let shopingCart=["mobile","shirt","shoes"];
+
+// shopingCart.push("laptop");
+// console.log(shopingCart);
+
+// let users=[{
+//     name:"emran",
+//     roll:1
+// }]
+
+// users.push({
+//     name:"naif",
+//     roll:2});
+// console.log(users);
+
+
+let shopingCart=["shirt","mobile","laptop"]
+
+ let removeshop=shopingCart.pop();
+ console.log(removeshop);
