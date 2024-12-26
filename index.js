@@ -221,9 +221,22 @@
 // let sentence="javascript is a  versatile language";
 // let word= sentence.includes("versatile");
 // console.log(word); //it returns boolean value
-let email="user@gmail.com";
-if(email.includes("@")){
-    console.log("valid email");
-}else{
-    console.log("invalid email");
-}
+// let email="user@gmail.com";
+// if(email.includes("@")){
+//     console.log("valid email");
+// }else{
+//     console.log("invalid email");
+// }
+
+// syntax indexOf method
+// string.indexOf(searchString, startIndex);
+// let sentence="javascript is a versatile  and powerfull language";
+// let position=sentence.indexOf("versatile"); //it returns the index of the first occurance of the specified value
+// console.log(position);
+
+
+// syntax lastIndexOf method   
+// string.lastIndexOf(searchString, startIndex);
+let sentence="javascript is a versatile and javascript powerfull language";    
+let position=sentence.lastIndexOf("javascript"); //it returns the index of the last occurance of the specified value
+console.log(position);
