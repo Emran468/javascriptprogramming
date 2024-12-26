@@ -237,6 +237,18 @@
 
 // syntax lastIndexOf method   
 // string.lastIndexOf(searchString, startIndex);
-let sentence="javascript is a versatile and javascript powerfull language";    
-let position=sentence.lastIndexOf("javascript"); //it returns the index of the last occurance of the specified value
-console.log(position);
+// let sentence="javascript is a versatile and javascript powerfull language";    
+// let position=sentence.lastIndexOf("javascript"); //it returns the index of the last occurance of the specified value
+// console.log(position);
+
+// sytax replacement
+// String.replace(pattern, replacement);
+// let sentence="I have a cat and a dog and a cat and a cat";
+// let newSentence=sentence.replace("cat","horse");//it returns a new sentence only first a replacement
+// console.log(newSentence);
+
+// syntax replaceAll method
+// String.replaceAll(pattern, replacement);
+let sentence="I have a cat and a dog and a cat and a cat";
+let newSentence=sentence.replaceAll("cat","horse");//it returns a new sentence all replacement
+console.log(newSentence);
