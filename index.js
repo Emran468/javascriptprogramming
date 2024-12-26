@@ -184,7 +184,46 @@
 // console.log(users);
 
 
-let shopingCart=["shirt","mobile","laptop"]
+// let shopingCart=["shirt","mobile","laptop"];
 
- let removeshop=shopingCart.pop();
- console.log(removeshop);
+//  let removeshop=shopingCart.pop();
+//  console.log(removeshop);
+
+
+// string,charAt(index);
+// let greetings="Hello world";
+// let firstCharacter = greetings.charAt(0);
+
+// console.log(firstCharacter);
+
+
+// charCodeAt syntax
+
+// String.charCodeAt(index);
+
+// let name="hi i am emran";
+// let stringCode=name.charCodeAt(0);
+// console.log(stringCode);
+
+// conact method syntax
+
+// stringCode.concat(string1,string2,string3....);
+// let name1="emran";
+// let name2="nahian";
+// let fullName=name1.concat(" ",name2);
+// console.log(fullName);
+
+
+// syntax includes method
+// string.includes(searchString,position);
+// PerformanceServerTiming.includes(substring,startINdex);
+
+// let sentence="javascript is a  versatile language";
+// let word= sentence.includes("versatile");
+// console.log(word); //it returns boolean value
+let email="user@gmail.com";
+if(email.includes("@")){
+    console.log("valid email");
+}else{
+    console.log("invalid email");
+}
