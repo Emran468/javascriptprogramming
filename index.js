@@ -249,6 +249,34 @@
 
 // syntax replaceAll method
 // String.replaceAll(pattern, replacement);
-let sentence="I have a cat and a dog and a cat and a cat";
-let newSentence=sentence.replaceAll("cat","horse");//it returns a new sentence all replacement
-console.log(newSentence);
+// let sentence="I have a cat and a dog and a cat and a cat";
+// let newSentence=sentence.replaceAll("cat","horse");//it returns a new sentence all replacement
+// console.log(newSentence);
+
+// slice method syntax //it returns a new string by extracting a part of the string
+// // string.slice(start, end);
+// let sentence="hello world!";
+// let newSentence=sentence.slice(6,14);
+// console.log(newSentence);
+
+// split method syntax  //it returns an array of substrings
+// string.split(separator, limit);
+
+
+// let sentence="javascript  is a versatile language";
+// let words=sentence.split(" ");
+// console.log(words);
+
+// syntax toLowerCase method
+// string.toLowerCase();
+
+    // let sentence="JAVASCRIPT IS A VERSATILE LANGUAGE";
+    // let newSentence=sentence.toLowerCase();
+    // console.log(newSentence);
+
+ // syntax toUpperCase method
+// string.toUpperCase();
+
+     let sentence="javascripT is a  versatile language";
+     let newSentence=sentence.toUpperCase();
+     console.log(" TO UPPER CASE", newSentence);
